@@ -1,4 +1,4 @@
-function [] = f2(A,b,X)
+function [] = f(A,b,X)
     clf;
     X=[X, X(:,1)];
     Axb = A*X +b;
